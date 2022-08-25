@@ -1,0 +1,132 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*******Navegador********/
+.color{
+    background-image: linear-gradient(to right, blue, rgb(60, 232, 60));
+}
+
+.tamañoLogo{
+    height: 30% ;
+    width: 30% ;
+}
+
+/*****Carrousel***/
+
+.carousel-inner img {
+    max-width: 70%;
+    max-height: 350px;
+    margin: auto;
+}
+
+.carousel-inner{
+ height: 350px;
+ background-color: rgb(143, 137, 137);
+  
+}
+
+
+ /*******CUERPO INDEX*******/
+
+
+.padre{
+    grid-area: padre;
+    background-image: linear-gradient(to bottom, rgb(72, 71, 60), rgb(30, 81, 211)) ;
+    display: flex;
+    flex-wrap:wrap ;
+   align-items: center;
+    justify-content: space-evenly;
+    
+   }
+
+.hijo{
+    margin: 20px;
+    
+}
+
+.tamañoImagen{
+    width: 450px;
+    height: 380px;
+    border: rgb(77, 0, 128) 3px solid;
+    border-radius: 50px ;
+    transition: height 0.5; width: 0.8;
+    
+}
+
+.tamañoImagen:hover{
+    height: 385px;
+    width: 455px;
+}
+
+
+/**********FOOTER*********/
+
+footer {
+    grid-area: footer;
+    background-image: linear-gradient(to bottom, rgb(170, 189, 144), rgb(179, 227, 36)) ;
+         
+    border-radius: 10px;
+       
+}
+
+
+
+
+.hijoFooter{
+    background-image: linear-gradient(to bottom, rgb(170, 189, 144), rgb(179, 227, 36)) ;
+   
+}
+
+
+h3{
+    
+    font-size: 20px;
+    display: flex;
+   flex-wrap:wrap ;
+   align-items: center;
+   justify-content: space-around ;
+
+}
+
+ 
+ 
+
+ /******PAGINAS HTML********/
+
+ .padreFlex{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+    align-items: center ;
+    
+    
+    }
+
+  
+
+ h1{
+    font-family: monospace;
+    font-size: 40px;
+    color: darkred;
+ }
+
+ 
+ main{
+
+    display: flex;
+   flex-wrap:wrap ;
+   align-items: center;
+   justify-content: space-around ;
+   
+ }
+
+
+  
+
+
+    
+ 
